@@ -1,0 +1,216 @@
+/* INDICE */
+
+/* COMPUTADOR - 7 */
+/* TABLET - 79 */
+/* MOBILE - 184 */
+
+/* COMPUTADOR */
+
+@media (max-width: 1100px) {
+
+    /* ESTRUTURA */
+
+    .evento,
+    .universo,
+    .parceria,
+    .cadastro,
+    .certificados {
+        width: 95%;
+    }
+
+    /* =-=-=-=-=-=-=-= */
+
+    /* TOPO */
+    .topo {
+        width: 100%;
+        margin: 0 10px 0 10px;
+    }
+
+    .menu {
+        margin-right: 10px;
+    }
+
+    /* =-=-=-=-=-=-=-= */
+
+    /* BANNER */
+
+    .banner-texto {
+        width: 90%;
+        padding-top: 110px;
+    }
+
+    /* =-=-=-=-=-=-=-= */
+
+    /* BANNER */
+
+    .evento-box {
+        flex-wrap: wrap;
+    }
+
+    .evento-box-caixa {
+        margin-bottom: 30px;
+    }
+
+    /* =-=-=-=-=-=-=-= */
+
+    /* UNIVERSO e PARCERIA */
+
+    .conteudo-secao-img {
+        width: 400px;
+        height: 394px;
+    }
+
+    .conteudo-secao-conteudo {
+        width: 45%;
+    }
+
+    /* =-=-=-=-=-=-=-= */
+
+    /* UNIVERSO e PARCERIA */
+
+    .certificados-logos img {
+        width: 201px;
+        height: 180px;
+    }
+}
+
+/* =-=-=-=-=-=-=-= */
+
+/* TABLET */
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 0;
+    }
+
+    /* =-=-=-=-=-=-=-= */
+
+    /* HEADER */
+
+    header {
+        position: static;
+        margin-top: 0;
+    }
+
+    /* =-=-=-=-=-=-=-= */
+
+    .topo {
+        flex-direction: column;
+    }
+
+    /* =-=-=-=-=-=-=-= */
+
+    /* MENU */
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        margin-right: 0;
+    }
+
+    /* =-=-=-=-=-=-=-= */
+
+    /* BANNER */
+
+    .banner-texto-chamada {
+        padding: 0 10% 0 10%;
+    }
+
+    .banner-texto {
+        padding-top: 100px;
+    }
+
+    /* =-=-=-=-=-=-=-= */
+
+    /* UNIVERSO e PARCERIA */
+
+    .conteudo-secao {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo-secao-conteudo {
+        width: 90%;
+    }
+
+    .conteudo-secao-img {
+        margin-bottom: 20px;
+    }
+
+    .responsivo {
+        flex-direction: column-reverse;
+    }
+
+    /* =-=-=-=-=-=-=-= */
+
+    /* CADASTRO */
+
+    .cadastro-conteudo {
+        width: 100%;
+    }
+
+    .form-campo {
+        width: 100%;
+    }
+
+    .botao-maior {
+        width: 90%;
+    }
+
+    /* =-=-=-=-=-=-=-= */
+
+    /* CERTIFICADOS */
+
+    .certificados {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .certificados-titulo {
+        font-size: 53px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .certificados-logos img {
+        width: 261px;
+        height: 234px;
+    }
+}
+
+/* =-=-=-=-=-=-=-= */
+
+/* MOBILE */
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 43px;
+    }
+
+    .banner-texto {
+        padding-top: 30px;
+    }
+
+    .evento-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .certificados-logos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .certificados-logos img:first-child {
+        padding-bottom: 20px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
